@@ -150,6 +150,13 @@ const initChart = () => {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  width: 100%;
+  @media (max-width: 768px) {
+    padding: 10px;
+    h3 {
+      font-size: 16px;
+    }
+  }
 }
 
 .summary-box {

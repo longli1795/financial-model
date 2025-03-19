@@ -30,6 +30,17 @@ body {
   min-height: 100vh;
 }
 
+@media (max-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
+  
+  body {
+    padding: 10px;
+    min-height: calc(100vh - 20px);
+  }
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;

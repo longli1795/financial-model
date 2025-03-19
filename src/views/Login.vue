@@ -96,10 +96,15 @@ const handleLogin = () => {
 }
 
 .login-card {
-  width: 400px;
-  padding: 30px 20px;
+  width: 90%;
+  max-width: 400px;
+  padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  @media (max-width: 768px) {
+    padding: 1.5rem;
+    width: 95%;
+  }
 }
 
 .login-title {

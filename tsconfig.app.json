@@ -5,6 +5,7 @@
 
     /* Linting */
     "strict": true,
+    "types": ["node"],
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
